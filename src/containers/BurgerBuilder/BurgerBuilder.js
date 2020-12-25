@@ -23,15 +23,15 @@ class BurgerBuilder extends Component {
     purchasing: false,
     loading: false,
   };
-  componentDidMount() {
-    axios
-      .get(
-        "https://react-my-burger-914a5-default-rtdb.europe-west1.firebasedatabase.app/ingredients.json"
-      )
-      .then((response) => {
-        this.setState({ ingredients: response.data });
-      });
-  }
+  // componentDidMount() {
+  //   axios
+  //     .get(
+  //       "https://react-my-burger-914a5-default-rtdb.europe-west1.firebasedatabase.app/ingredients.json"
+  //     )
+  //     .then((response) => {
+  //       this.setState({ ingredients: response.data });
+  //     });
+  // }
 
   updatePurchaseState(ingredients) {
     // const ingredients = {
