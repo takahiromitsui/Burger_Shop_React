@@ -1,9 +1,11 @@
 # Burger Shop
 
 ## Technologies
-React (redux)
-Javascript
-Firebase (database)
+
+- React (redux)
+- Javascript
+- Firebase (database)
+
 
 ## Development
 
